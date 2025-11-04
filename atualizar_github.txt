@@ -1,0 +1,8 @@
+Sempre que você fizer uma modificação (por exemplo, alterar index.html ou style.css):
+
+git add .
+git commit -m "Atualiza layout do portfólio"
+git push
+
+
+O GitHub Pages vai detectar automaticamente o novo commit e republicar o site em poucos minutos.
