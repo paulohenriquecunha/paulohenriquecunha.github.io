@@ -1,67 +1,79 @@
-<<<<<<< HEAD
-// Mobile menu toggle
-document.addEventListener('DOMContentLoaded', function() {
+// Script principal do site de portfólio
+document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
-    
-    hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-        hamburger.classList.toggle('active');
-    });
-    
-    // Close menu when clicking on a link
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            hamburger.classList.remove('active');
+
+    // Toggle do menu mobile
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+
+            const expanded = hamburger.classList.contains('active');
+            hamburger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
         });
-    });
-    
-    // Smooth scrolling for anchor links
+
+        // Fechar menu ao clicar em um link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    }
+
+    // Rolagem suave para âncoras internas (se existirem)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            
+        anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            
+
+            if (!targetId || targetId === '#' || targetId.length === 1) {
+                return;
+            }
+
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
+                e.preventDefault();
+                const navbarHeight = document.getElementById('navbar')?.offsetHeight || 0;
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10;
+
                 window.scrollTo({
-                    top: targetElement.offsetTop - 80,
+                    top: targetPosition,
                     behavior: 'smooth'
                 });
             }
         });
     });
-    
-    // Add shadow to navbar on scroll
-    window.addEventListener('scroll', function() {
+
+    // Sombra dinâmica na navbar conforme o scroll
+    window.addEventListener('scroll', function () {
         const navbar = document.getElementById('navbar');
-        if (window.scrollY > 50) {
-            navbar.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
+        if (!navbar) return;
+
+        if (window.scrollY > 40) {
+            navbar.style.boxShadow = '0 10px 25px rgba(15, 23, 42, 0.12)';
         } else {
-            navbar.style.boxShadow = 'none';
+            navbar.style.boxShadow = '0 5px 15px rgba(15, 23, 42, 0.08)';
         }
     });
 
-    // Contact form (mailto) handler
+    // Handler do formulário de contato (abre o cliente de e-mail)
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         const formFeedback = document.getElementById('formFeedback');
-        contactForm.addEventListener('submit', function(e) {
+
+        contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
 
-            // Collect values
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const subject = document.getElementById('subject').value.trim();
-            const message = document.getElementById('message').value.trim();
+            const name = document.getElementById('name')?.value.trim();
+            const email = document.getElementById('email')?.value.trim();
+            const subject = document.getElementById('subject')?.value.trim();
+            const message = document.getElementById('message')?.value.trim();
 
-            // Simple client-side validation
             if (!name || !email || !subject || !message) {
                 if (formFeedback) {
-                    formFeedback.textContent = 'Por favor, preencha todos os campos.';
+                    formFeedback.textContent = 'Por favor, preencha todos os campos antes de enviar.';
                     formFeedback.classList.remove('success');
                     formFeedback.classList.add('error');
                 }
@@ -70,119 +82,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const to = 'ppaulo_henrique@hotmail.com';
             const mailSubject = encodeURIComponent(subject);
-            const mailBody = encodeURIComponent(`Nome: ${name}\nE-mail: ${email}\n\n${message}`);
+            const mailBody = encodeURIComponent(
+                `Nome: ${name}\nE-mail: ${email}\n\n${message}`
+            );
             const mailtoLink = `mailto:${to}?subject=${mailSubject}&body=${mailBody}`;
 
             if (formFeedback) {
-                formFeedback.textContent = 'Abrindo seu cliente de e-mail...';
+                formFeedback.textContent = 'Abrindo o seu cliente de e-mail...';
                 formFeedback.classList.remove('error');
                 formFeedback.classList.add('success');
             }
 
-            // Open the default email client
             window.location.href = mailtoLink;
 
-            // Reset form after short delay
             setTimeout(() => {
                 contactForm.reset();
                 if (formFeedback) {
-                    formFeedback.textContent = 'Mensagem pronta no seu cliente de e-mail. Envie para concluir.';
+                    formFeedback.textContent = 'Mensagem preparada no seu cliente de e-mail. Basta conferir e enviar.';
                 }
-            }, 1000);
+            }, 800);
         });
     }
-=======
-// Mobile menu toggle
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    
-    hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-        hamburger.classList.toggle('active');
-    });
-    
-    // Close menu when clicking on a link
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            hamburger.classList.remove('active');
-        });
-    });
-    
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 80,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-    
-    // Add shadow to navbar on scroll
-    window.addEventListener('scroll', function() {
-        const navbar = document.getElementById('navbar');
-        if (window.scrollY > 50) {
-            navbar.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
-        } else {
-            navbar.style.boxShadow = 'none';
-        }
-    });
-
-    // Contact form (mailto) handler
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        const formFeedback = document.getElementById('formFeedback');
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Collect values
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const subject = document.getElementById('subject').value.trim();
-            const message = document.getElementById('message').value.trim();
-
-            // Simple client-side validation
-            if (!name || !email || !subject || !message) {
-                if (formFeedback) {
-                    formFeedback.textContent = 'Por favor, preencha todos os campos.';
-                    formFeedback.classList.remove('success');
-                    formFeedback.classList.add('error');
-                }
-                return;
-            }
-
-            const to = 'ppaulo_henrique@hotmail.com';
-            const mailSubject = encodeURIComponent(subject);
-            const mailBody = encodeURIComponent(`Nome: ${name}\nE-mail: ${email}\n\n${message}`);
-            const mailtoLink = `mailto:${to}?subject=${mailSubject}&body=${mailBody}`;
-
-            if (formFeedback) {
-                formFeedback.textContent = 'Abrindo seu cliente de e-mail...';
-                formFeedback.classList.remove('error');
-                formFeedback.classList.add('success');
-            }
-
-            // Open the default email client
-            window.location.href = mailtoLink;
-
-            // Reset form after short delay
-            setTimeout(() => {
-                contactForm.reset();
-                if (formFeedback) {
-                    formFeedback.textContent = 'Mensagem pronta no seu cliente de e-mail. Envie para concluir.';
-                }
-            }, 1000);
-        });
-    }
->>>>>>> 7ac7b58314fe31445e5440076dcf8ed51c0ed6a2
 });

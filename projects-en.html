@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Projetos | Paulo Henrique P. Cunha</title>
+    <title>My Projects | Paulo Henrique P. Cunha</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -12,21 +12,21 @@
     <nav id="navbar">
         <div class="container navbar-container">
             <div class="logo">
-                <a href="index.html">
+                <a href="index-en.html">
                     <img src="logo.png" alt="Portfolio – Paulo Henrique P. Cunha" class="logo-img">
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html" class="active">Projetos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="projects-en.html" class="active">Projects</a></li>
+                <li><a href="contact-en.html">Contact</a></li>
             </ul>
             <div class="language-toggle">
-                <a href="projetos.html" class="lang active-lang">PT</a>
+                <a href="projetos.html" class="lang">PT</a>
                 <span class="lang-separator">/</span>
-                <a href="projects-en.html" class="lang">EN</a>
+                <a href="projects-en.html" class="lang active-lang">EN</a>
             </div>
-            <div class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+            <div class="hamburger" aria-label="Open menu" aria-expanded="false">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -35,8 +35,8 @@
     <!-- Projects Section -->
     <section id="projects" class="section-padding">
         <div class="container">
-            <h2>Projetos em Destaque</h2>
-            <p class="projects-intro">Alguns dos projetos que desenvolvi para praticar e demonstrar minhas habilidades em análise de dados, ETL, EDA, SQL e dashboards em Power BI.</p>
+            <h2>Featured Projects</h2>
+            <p class="projects-intro">Here are some of the projects I have developed to practice and showcase my skills in data analysis, ETL, EDA, SQL and dashboards in Power BI.</p>
 
             <div class="projects-grid">
                 <div class="project-card">
@@ -45,15 +45,15 @@
                     </div>
                     <div class="project-content">
                         <h3>powerbi_dashboards</h3>
-                        <p>Coleção de dashboards práticos em Power BI com foco em storytelling, KPIs e boas práticas de modelagem de dados e DAX. Inclui arquivos .pbix e capturas.</p>
+                        <p>Collection of practical Power BI dashboards focused on storytelling, KPIs and solid data modeling and DAX practices. Includes .pbix files and screenshots.</p>
                         <div class="project-tech">
                             <span>Power BI</span>
                             <span>DAX</span>
-                            <span>Modelagem</span>
+                            <span>Modeling</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/powerbi_dashboards" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/powerbi_dashboards#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -68,7 +68,7 @@
                     </div>
                     <div class="project-content">
                         <h3>etl_eda_dashboard_hr_analytics</h3>
-                        <p>Pipeline enxuto para um dataset de RH (attrition): limpeza, padronização, EDA e geração de base pronta para visualização em Power BI, com foco em rotatividade de colaboradores.</p>
+                        <p>Lean pipeline for an HR dataset (attrition): cleaning, standardization, EDA and creation of a curated dataset ready for visualization in Power BI, focused on employee turnover.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>Pandas</span>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/etl_eda_dashboard_hr_analytics" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/etl_eda_dashboard_hr_analytics#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -87,19 +87,19 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="project3.png" alt="Banco de Dados de E-commerce (SQL)" class="cover-img">
+                        <img src="project3.png" alt="E-commerce SQL Database" class="cover-img">
                     </div>
                     <div class="project-content">
                         <h3>ecommerce-logistics-sql-database</h3>
-                        <p>Modelagem relacional para e-commerce, com scripts separados de schema, seed e checks. Inclui diagrama lógico e documentação de constraints para garantir integridade dos dados.</p>
+                        <p>Relational modeling for an e-commerce database with separate schema, seed and check scripts. Includes logical diagram and constraints documentation to ensure data integrity.</p>
                         <div class="project-tech">
                             <span>SQL</span>
-                            <span>Modelagem</span>
-                            <span>Diagrama ER</span>
+                            <span>Modeling</span>
+                            <span>ER Diagram</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/ecommerce-logistics-sql-database" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/ecommerce-logistics-sql-database#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -114,15 +114,15 @@
                     </div>
                     <div class="project-content">
                         <h3>etl_covid19_2020</h3>
-                        <p>Pipeline de ETL para dados de COVID-19 (2020): ingestão, limpeza, normalização de datas e consolidação em dataset analítico preparado para exploração e visualização.</p>
+                        <p>ETL pipeline for COVID-19 data (2020): ingestion, cleaning, date normalization and consolidation into an analytical dataset ready for exploration and visualization.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>ETL</span>
-                            <span>Datas</span>
+                            <span>Dates</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/etl_covid19_2020" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/etl_covid19_2020#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -133,11 +133,11 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="project5.jpg" alt="Hospedagem – ETL com JSON" class="cover-img">
+                        <img src="project5.jpg" alt="Hospitality – ETL with JSON" class="cover-img">
                     </div>
                     <div class="project-content">
                         <h3>etl_hospedagem_json</h3>
-                        <p>Processamento de dados de hospedagem em formato JSON: leitura em lote, normalização de estruturas aninhadas e exportação tabular pronta para uso em ferramentas de BI.</p>
+                        <p>Processing of hospitality data in JSON format: batch reading, normalization of nested structures and tabular export ready to be used in BI tools.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>JSON</span>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/etl_hospedagem_json" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/etl_hospedagem_json#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -156,11 +156,11 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="project6.png" alt="Dashboard de E-commerce – SQL + Power BI" class="cover-img">
+                        <img src="project6.png" alt="E-commerce Dashboard – SQL + Power BI" class="cover-img">
                     </div>
                     <div class="project-content">
                         <h3>dashboard_ecommerce_db</h3>
-                        <p>Projeto completo de análise de dados com base SQL e dashboard em Power BI, mostrando vendas, pedidos e desempenho por mês, categoria e produto.</p>
+                        <p>End-to-end analysis project with SQL database and Power BI dashboard, showing sales, orders and performance by month, category and product.</p>
                         <div class="project-tech">
                             <span>Power BI</span>
                             <span>SQL</span>
@@ -168,7 +168,7 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/paulohenriquecunha/dashboard_ecommerce_db" target="_blank" class="btn btn-small">
-                                <i class="fab fa-github"></i> Código
+                                <i class="fab fa-github"></i> Code
                             </a>
                             <a href="https://github.com/paulohenriquecunha/dashboard_ecommerce_db#readme" target="_blank" class="btn btn-small btn-secondary">
                                 <i class="fas fa-book"></i> README
@@ -186,12 +186,12 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <a href="index.html">
+                    <a href="index-en.html">
                         <img src="logo_branco.png" alt="Portfolio – Paulo Henrique P. Cunha" class="logo-img">
                     </a>
                 </div>
                 <div class="footer-contact">
-                    <h3>Informações de contato</h3>
+                    <h3>Contact information</h3>
                     <ul>
                         <li>
                             <i class="fas fa-envelope"></i>
@@ -216,7 +216,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Paulo Henrique P. Cunha. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Paulo Henrique P. Cunha. All rights reserved.</p>
             </div>
         </div>
     </footer>
