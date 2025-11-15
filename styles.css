@@ -167,6 +167,38 @@ a:hover {
     color: #111827;
 }
 
+/* Botão para o site profissional na navbar */
+.nav-cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.95rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #1d4ed8, #f97316);
+    color: #fff !important;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.25);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.nav-cta-link i {
+    font-size: 0.9rem;
+}
+
+.nav-cta-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.32);
+    opacity: 0.95;
+}
+
+/* No mobile, deixa o botão ocupar um pouco mais de largura */
+@media (max-width: 768px) {
+    .nav-cta-link {
+        padding: 0.6rem 1.4rem;
+    }
+}
+
 .nav-links a.active,
 .nav-links a:hover {
     color: var(--secondary-color);
