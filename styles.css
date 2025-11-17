@@ -878,7 +878,7 @@ a:hover {
     }
 
     .language-toggle {
-        display: none;
+        display: flex;
     }
 
     h1 {
