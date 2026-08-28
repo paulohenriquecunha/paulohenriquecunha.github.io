@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://paulohenriquecunha.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://paulohenriquecunha.github.io/index-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://paulohenriquecunha.github.io/projetos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/projetos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/projects-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/projetos.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://paulohenriquecunha.github.io/projects-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/projetos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/projects-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/projetos.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://paulohenriquecunha.github.io/contato.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/contact-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/contato.html"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://paulohenriquecunha.github.io/contact-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://paulohenriquecunha.github.io/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paulohenriquecunha.github.io/contact-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paulohenriquecunha.github.io/contato.html"/>
+    <priority>0.4</priority>
+  </url>
+</urlset>

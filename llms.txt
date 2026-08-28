@@ -1,0 +1,12 @@
+# Paulo Henrique P. Cunha — Portfólio de Analista de Dados
+
+> Portfólio profissional de Paulo Henrique P. Cunha, analista de dados freelancer em Cascais, Portugal — dashboards Power BI, ETL/EDA em Python e SQL.
+
+Paulo é analista de dados freelancer, com formação em Análise de Dados pela IBM/Coursera, especializado em SQL, Python, Power BI e Excel. Atende PMEs e profissionais que precisam organizar dados, entender indicadores e decidir com evidências. Também é o responsável pela PC Data Insights (https://pcdatainsights.com), sua marca de serviços de análise de dados e desenvolvimento web.
+
+## Páginas principais
+- [Início](https://paulohenriquecunha.github.io/): apresentação, habilidades (SQL, Python, Power BI, Excel) e destaques de experiência
+- [Projetos](https://paulohenriquecunha.github.io/projetos.html): projetos de análise de dados aplicados a casos reais
+- [Contato](https://paulohenriquecunha.github.io/contato.html): informações de contacto e orçamento
+
+Versão em inglês disponível em /index-en.html, /projects-en.html e /contact-en.html.

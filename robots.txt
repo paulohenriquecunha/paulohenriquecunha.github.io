@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paulohenriquecunha.github.io/sitemap.xml
