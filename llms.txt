@@ -10,3 +10,6 @@ Paulo é analista de dados freelancer, com formação em Análise de Dados pela 
 - [Contato](https://paulohenriquecunha.github.io/contato.html): informações de contacto e orçamento
 
 Versão em inglês disponível em /index-en.html, /projects-en.html e /contact-en.html.
+
+## Conteúdo integral
+Versão completa (texto de todas as páginas acima) para agentes de IA: https://paulohenriquecunha.github.io/llms-full.txt

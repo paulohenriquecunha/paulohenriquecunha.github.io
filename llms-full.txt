@@ -1,0 +1,153 @@
+# Paulo Henrique P. Cunha — Portfólio de Analista de Dados
+
+> Portfólio profissional de Paulo Henrique P. Cunha, analista de dados freelancer em Cascais, Portugal — dashboards Power BI, ETL/EDA em Python e SQL.
+
+Versão integral para agentes de IA: texto completo das páginas listadas em https://paulohenriquecunha.github.io/llms.txt (páginas principais + conteúdo em destaque). Gerado automaticamente a partir do site publicado; não é o arquivo-fonte — para editar, mudar as páginas do site e regerar.
+
+---
+
+## Analista de Dados Freelancer
+
+URL: https://paulohenriquecunha.github.io/
+
+Analista de dados freelancer em Cascais, Portugal. Dashboards Power BI, ETL/EDA em Python e SQL para PMEs e profissionais que precisam decidir com dados claros.
+
+Freelancer em Análise de Dados 
+## Paulo Henrique P. Cunha 
+
+### Analista de Dados | SQL | Python | Power BI | Excel 
+
+Ajudo empresas e profissionais a transformar dados dispersos em decisões claras, dashboards objetivos e insights que geram impacto real no negócio. 
+ETL e EDA em Python Dashboards em Power BI Modelagem e SQL para análise 
+
+Ver Projetos 
+
+Data insights claros para decisões seguras. 
+
+### Sobre Mim 
+
+Sou analista de dados com uma base multidisciplinar que combina pensamento crítico, comunicação clara e capacidade de estruturar informação de forma lógica e orientada a resultados. A minha experiência como escritor, professor e desenvolvedor web fortalece a forma como interpreto dados, transformando-os em conhecimento útil e aplicado ao contexto real de cada cliente. 
+Concluí a formação em Análise de Dados pela IBM/Coursera e especializei-me em SQL, Python, Power BI, Excel e visualização de dados. Trabalho com processos completos de coleta, limpeza, transformação e análise exploratória, criando dashboards e relatórios que oferecem clareza, apoiam decisões e revelam oportunidades de melhoria. 
+Desenvolvo soluções práticas e acessíveis para pequenas empresas, profissionais e organizações que precisam organizar os seus dados, compreender melhor os seus indicadores e tomar decisões baseadas em evidências. Prezo pela ética, precisão e simplicidade, entregando análises que unem rigor técnico e comunicação objetiva. 
+O meu compromisso é ajudar cada cliente a transformar dados em insights claros, processos mais eficientes e decisões mais seguras. 
+
+### Habilidades 
+
+#### SQL 
+
+Consultas, modelagem relacional, otimização básica e análise de dados em bases estruturadas. 
+
+#### Python 
+
+ETL, EDA e preparação de dados utilizando Pandas, NumPy e Matplotlib. 
+
+#### Power BI 
+
+Dashboards interativos, KPIs, DAX e visualizações focadas em tomada de decisão. 
+
+#### Excel 
+
+Fórmulas avançadas, tabelas dinâmicas, Power Query e organização de bases. 
+
+#### Desenvolvimento Web 
+
+HTML, CSS e JavaScript para criação de páginas de portfólio e reporting. 
+
+#### Visualização de Dados 
+
+Storytelling com dados, gráficos claros e comunicação orientada ao negócio. 
+
+####
+
+---
+
+## Projetos de Análise de Dados
+
+URL: https://paulohenriquecunha.github.io/projetos.html
+
+Projetos de análise de dados de Paulo Henrique P. Cunha: dashboards Power BI, ETL/EDA em Python e SQL aplicados a casos reais de negócio.
+
+## Projetos em Destaque 
+
+Alguns dos projetos que desenvolvi para praticar e demonstrar minhas habilidades em análise de dados, ETL, EDA, SQL e dashboards em Power BI. 
+
+#### powerbi_dashboards 
+
+Coleção de dashboards práticos em Power BI com foco em storytelling, KPIs e boas práticas de modelagem de dados e DAX. Inclui arquivos .pbix e capturas. 
+Power BI DAX Modelagem 
+Código README 
+
+#### etl_eda_dashboard_hr_analytics 
+
+Pipeline enxuto para um dataset de RH (attrition): limpeza, padronização, EDA e geração de base pronta para visualização em Power BI, com foco em rotatividade de colaboradores. 
+Python Pandas EDA 
+Código README 
+
+#### ecommerce-logistics-sql-database 
+
+Modelagem relacional para e-commerce, com scripts separados de schema, seed e checks. Inclui diagrama lógico e documentação de constraints para garantir integridade dos dados. 
+SQL Modelagem Diagrama ER 
+Código README 
+
+#### etl_covid19_2020 
+
+Pipeline de ETL para dados de COVID-19 (2020): ingestão, limpeza, normalização de datas e consolidação em dataset analítico preparado para exploração e visualização. 
+Python ETL Datas 
+Código README 
+
+#### etl_hospedagem_json 
+
+Processamento de dados de hospedagem em formato JSON: leitura em lote, normalização de estruturas aninhadas e exportação tabular pronta para uso em ferramentas de BI. 
+Python JSON ETL 
+Código README 
+
+#### dashboard_ecommerce_db 
+
+Projeto completo de análise de dados com base SQL e dashboard em Power BI, mostrando vendas, pedidos e desempenho por mês, categoria e produto. 
+Power BI SQL DAX 
+Código README 
+
+#### salary_analysis_portugal_2015_2022 
+
+Análise completa da evolução dos salários em Portugal entre 2015 e 2022, incluindo ETL real, limpeza detalhada, unificação de múltiplas fontes da Pordata, EDA e criação de visualizações profissionais. 
+Python Pandas EDA Power BI 
+Código README 
+
+#### etl_dashboard_streaming_comparation 
+
+Projeto completo de ETL, EDA e criação de dashboard comparativo entre plataformas de streaming, integrando catálogos públicos com IMDb. Inclui pipeline limpo, métricas derivadas, análise exploratória e visualizações. 
+Python Pandas ETL Power BI 
+Código README 
+
+####
+
+---
+
+## Contato
+
+URL: https://paulohenriquecunha.github.io/contato.html
+
+Fale com Paulo Henrique P. Cunha, analista de dados freelancer em Cascais, Portugal, para orçamento de dashboards Power BI, ETL/EDA em Python ou análise em SQL.
+
+## Entre em Contato 
+
+#### Informações para Contato 
+
+Se quiser conversar sobre um projeto, tirar dúvidas sobre análise de dados ou solicitar um orçamento, pode usar os contatos abaixo ou o formulário ao lado. 
+
+ppaulo_henrique@hotmail.com 
+Cascais, Portugal 
++351 936 176 436 
+
+#### Redes Sociais 
+
+#### Envie uma Mensagem 
+
+Nome 
+E-mail 
+Assunto 
+Mensagem Preparar E-mail 
+Ao clicar, será aberto o seu cliente de e-mail já com a mensagem preenchida para envio. 
+
+####
+
