@@ -8,4 +8,4 @@
 .skill-item:nth-child(3) i{background:linear-gradient(135deg,#0891b2,#0e7490)}
 .skill-item:nth-child(4) i{background:linear-gradient(135deg,#16a34a,#15803d)}
 .skill-item:nth-child(5) i{background:linear-gradient(135deg,#7c3aed,#6d28d9)}
-.skill-item:nth-child(6) i{background:linear-gradient(135deg,#db2777,#be185d)}
+.skill-item:nth-child(6) i{background:linear-gradient(135deg,#db2777,#be185d)}.ic{display:inline-block;font-style:normal;line-height:1}.ic svg{height:1em;width:auto;fill:currentColor;vertical-align:-.125em;overflow:visible}.dev-credit{display:flex;align-items:center;justify-content:center;gap:.35rem;flex-wrap:wrap;margin:.2rem 0 0;font-size:.8rem;color:#cbd5e1}.dev-credit svg{fill:currentColor;flex:none}.dev-credit a{color:#93c5fd;font-weight:600}.dev-credit a:hover{color:#bfdbfe}@media (max-width:768px){.dev-credit a{display:inline-flex;align-items:center;min-height:44px}}
