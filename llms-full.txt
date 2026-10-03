@@ -71,49 +71,49 @@ Projetos de análise de dados de Paulo Henrique P. Cunha: dashboards Power BI, E
 
 Alguns dos projetos que desenvolvi para praticar e demonstrar minhas habilidades em análise de dados, ETL, EDA, SQL e dashboards em Power BI. 
 
-#### powerbi_dashboards 
+### powerbi_dashboards 
 
 Coleção de dashboards práticos em Power BI com foco em storytelling, KPIs e boas práticas de modelagem de dados e DAX. Inclui arquivos .pbix e capturas. 
 Power BI DAX Modelagem 
 Código README 
 
-#### etl_eda_dashboard_hr_analytics 
+### etl_eda_dashboard_hr_analytics 
 
 Pipeline enxuto para um dataset de RH (attrition): limpeza, padronização, EDA e geração de base pronta para visualização em Power BI, com foco em rotatividade de colaboradores. 
 Python Pandas EDA 
 Código README 
 
-#### ecommerce-logistics-sql-database 
+### ecommerce-logistics-sql-database 
 
 Modelagem relacional para e-commerce, com scripts separados de schema, seed e checks. Inclui diagrama lógico e documentação de constraints para garantir integridade dos dados. 
 SQL Modelagem Diagrama ER 
 Código README 
 
-#### etl_covid19_2020 
+### etl_covid19_2020 
 
 Pipeline de ETL para dados de COVID-19 (2020): ingestão, limpeza, normalização de datas e consolidação em dataset analítico preparado para exploração e visualização. 
 Python ETL Datas 
 Código README 
 
-#### etl_hospedagem_json 
+### etl_hospedagem_json 
 
 Processamento de dados de hospedagem em formato JSON: leitura em lote, normalização de estruturas aninhadas e exportação tabular pronta para uso em ferramentas de BI. 
 Python JSON ETL 
 Código README 
 
-#### dashboard_ecommerce_db 
+### dashboard_ecommerce_db 
 
 Projeto completo de análise de dados com base SQL e dashboard em Power BI, mostrando vendas, pedidos e desempenho por mês, categoria e produto. 
 Power BI SQL DAX 
 Código README 
 
-#### salary_analysis_portugal_2015_2022 
+### salary_analysis_portugal_2015_2022 
 
 Análise completa da evolução dos salários em Portugal entre 2015 e 2022, incluindo ETL real, limpeza detalhada, unificação de múltiplas fontes da Pordata, EDA e criação de visualizações profissionais. 
 Python Pandas EDA Power BI 
 Código README 
 
-#### etl_dashboard_streaming_comparation 
+### etl_dashboard_streaming_comparation 
 
 Projeto completo de ETL, EDA e criação de dashboard comparativo entre plataformas de streaming, integrando catálogos públicos com IMDb. Inclui pipeline limpo, métricas derivadas, análise exploratória e visualizações. 
 Python Pandas ETL Power BI 
@@ -131,7 +131,7 @@ Fale com Paulo Henrique P. Cunha, analista de dados freelancer em Cascais, Portu
 
 ## Entre em Contato 
 
-#### Informações para Contato 
+### Informações para Contato 
 
 Se quiser conversar sobre um projeto, tirar dúvidas sobre análise de dados ou solicitar um orçamento, pode usar os contatos abaixo ou o formulário ao lado. 
 
@@ -141,13 +141,32 @@ Cascais, Portugal
 
 #### Redes Sociais 
 
-#### Envie uma Mensagem 
+### Envie uma Mensagem 
 
 Nome 
 E-mail 
 Assunto 
 Mensagem Preparar E-mail 
 Ao clicar, será aberto o seu cliente de e-mail já com a mensagem preenchida para envio. 
+
+### Como posso ajudar 
+
+Trabalho como analista de dados freelancer a partir de Cascais, em Portugal, com projetos remotos em português e inglês. Os pedidos mais comuns são: 
+
+Dashboards em Power BI: indicadores definidos junto com você, modelagem dos dados e medidas em DAX, num relatório que a equipe consegue usar no dia a dia. 
+ETL e análise exploratória em Python: coletar, limpar e juntar dados de planilhas, CSV, JSON ou bancos SQL com Pandas e NumPy, e entender o que eles mostram antes de decidir. 
+SQL para análise: consultas, modelagem relacional e bases organizadas para responder às perguntas do negócio. 
+Excel: fórmulas avançadas, tabelas dinâmicas e Power Query para pôr ordem em bases que ainda vivem em planilhas. 
+Exemplos reais, com o código no GitHub, estão na página de projetos . 
+### O que enviar na primeira mensagem 
+
+Não precisa ter tudo definido. Para eu responder com uma proposta concreta, ajuda saber: 
+
+Que decisão ou pergunta os dados precisam responder. 
+Onde os dados estão hoje (planilhas, sistema, banco de dados, exportações) e, por alto, o volume. 
+O formato de entrega que você imagina: dashboard, relatório, base limpa ou script reutilizável. 
+O prazo e, se já tiver, uma faixa de orçamento. 
+Com isso eu volto com perguntas de esclarecimento ou já com uma proposta de escopo, prazo e valor. Não mande dados sensíveis no primeiro contato: se o projeto avançar, combinamos uma forma segura de compartilhar os arquivos. 
 
 ####
 
